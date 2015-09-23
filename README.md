@@ -1,2 +1,2 @@
 # openRFID
-A simple in Arduino RFID access control app. RFID's list stored in code.
+A simple Arduino RFID access control app. List of RFID's stored in code.
