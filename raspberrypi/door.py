@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# filename: datademo.py 
-# a simple script to pull some data from a MySQL table
+# filename: door.py 
 
 import MFRC522
 import signal
