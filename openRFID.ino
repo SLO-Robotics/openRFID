@@ -85,7 +85,7 @@ void loop() {
 for (byte i = 0; i < mfrc522.uid.size; i++) {
    String uidCHR(mfrc522.uid.uidByte[i], HEX); 
     if (uidCHR.length() < 2) {
-    uidCHR = "00";
+    uidCHR = "0" + uidCHR;
     } 
              
   UIDx = UIDx + uidCHR;
